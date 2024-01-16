@@ -1,6 +1,7 @@
 
 
-const Search = ({handleSearch}) => {
+const Search = ({handleSearch,handleSelectChange, sortOption}) => {
+
     return (
         <section className="mb-8 my-10 lg:my-14 lg:mb-10 mx-auto max-w-7xl">
         <div
@@ -62,7 +63,9 @@ const Search = ({handleSearch}) => {
             <select
               className="cursor-pointer rounded-md border px-4 py-2 text-center text-gray-600"
               name="sortBy"
-              id="sortBy"
+              id="sortBy" 
+              onChange={handleSelectChange}
+              value={sortOption}
             >
               <option value="">Sort</option>
               <option value="name_asc">Name (A-Z)</option>

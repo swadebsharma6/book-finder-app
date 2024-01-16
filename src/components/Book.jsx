@@ -1,7 +1,7 @@
 import star from '../assets/images/star.svg';
 
 const Book = ({book}) => {
-    const {bookName, authorName,image,price,rating} = book;
+    const {bookName, authorName,image,price,rating,publicationDate} = book;
     // console.log(book);
 
     return (
@@ -13,7 +13,7 @@ const Book = ({book}) => {
         </div>
       
         <div className="space-y-3">
-          <h4 className="text-lg font-bold lg:text-xl">{bookName}</h4>
+          <h4 className="text-lg font-bold lg:text-xl">{bookName}({publicationDate})</h4>
           <p className="text-xs lg:text-sm">By : <span>{authorName}</span></p>
           <div className="flex items-center justify-between">
             <h4 className="text-lg font-bold lg:text-xl">${price}</h4>

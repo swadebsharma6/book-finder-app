@@ -5,7 +5,8 @@ export const books = [
       "bookName": "Clean Code",
       "authorName": "Robert C. Martin",
       "price": 35.99,
-      "rating": 4.7
+      "rating": 4.7,
+      "publicationDate": "2008"
     },
     {
       "id": 2,
@@ -13,7 +14,8 @@ export const books = [
       "bookName": "Code Complete",
       "authorName": "Steve McConnell",
       "price": 42.50,
-      "rating": 4.8
+      "rating": 4.8,
+      "publicationDate": "2004"
     },
     {
       "id": 3,
@@ -21,7 +23,8 @@ export const books = [
       "bookName": "The Pragmatic Programmer",
       "authorName": "David Thomas",
       "price": 38.25,
-      "rating": 4.6
+      "rating": 4.6,
+      "publicationDate": "1999"
     },
     {
       "id": 4,
@@ -29,7 +32,8 @@ export const books = [
       "bookName": "Design Patterns",
       "authorName": "Erich Gamma",
       "price": 30.50,
-      "rating": 4.5
+      "rating": 4.5,
+      "publicationDate": "1994"
     },
     {
       "id": 5,
@@ -37,7 +41,8 @@ export const books = [
       "bookName": "Clean Architecture",
       "authorName": "Robert C. Martin",
       "price": 48.99,
-      "rating": 4.9
+      "rating": 4.9,
+      "publicationDate": "2017"
     },
     {
       "id": 6,
@@ -45,7 +50,8 @@ export const books = [
       "bookName": "Refactoring",
       "authorName": "Martin Fowler",
       "price": 37.75,
-      "rating": 4.4
+      "rating": 4.4,
+      "publicationDate": "1999"
     },
     {
       "id": 7,
@@ -53,7 +59,8 @@ export const books = [
       "bookName": "JavaScript",
       "authorName": "Douglas Crockford",
       "price": 22.99,
-      "rating": 4.3
+      "rating": 4.3,
+      "publicationDate": "2008"
     },
     {
       "id": 8,
@@ -61,6 +68,7 @@ export const books = [
       "bookName": "Effective Java",
       "authorName": "Joshua Bloch",
       "price": 40.50,
-      "rating": 4.6
+      "rating": 4.6,
+      "publicationDate": "2008"
     }
   ]

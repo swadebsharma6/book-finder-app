@@ -28,7 +28,7 @@ export const books = [
       "image": "https://i.ibb.co/87tYj9K/Desing-Pettern.jpg",
       "bookName": "Design Patterns",
       "authorName": "Erich Gamma",
-      "price": 30.00,
+      "price": 30.50,
       "rating": 4.5
     },
     {

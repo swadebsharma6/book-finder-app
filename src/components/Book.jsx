@@ -2,7 +2,7 @@ import star from '../assets/images/star.svg';
 
 const Book = ({book}) => {
     const {bookName, authorName,image,price,rating} = book;
-    console.log(book);
+    // console.log(book);
 
     return (
         <div className="space-y-3">

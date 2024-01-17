@@ -15,7 +15,6 @@ const BooksContainer = () => {
     e.preventDefault()
     const searchValue = e.target.search.value;
     setSearchText(searchValue);
-    console.log('search btn is clicked', searchText);
     const searchBooks = books.filter(book => book.bookName.includes(searchText));
       setLoadedBooks(searchBooks)
   }
@@ -45,7 +44,7 @@ const BooksContainer = () => {
 
 
     return (
-       <section>
+       <section className="md:mb-10">
        <Search 
        handleSearch={handleSearch}
        handleSelectChange={handleSelectChange}

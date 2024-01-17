@@ -6,7 +6,8 @@ export const books = [
       "authorName": "Robert C. Martin",
       "price": 35.99,
       "rating": 4.7,
-      "publicationDate": "2008"
+      "publicationDate": "2008",
+      "isFav": true
     },
     {
       "id": 2,
@@ -20,7 +21,7 @@ export const books = [
     {
       "id": 3,
       "image": "https://i.ibb.co/hVV9bQ9/Prag-Progamer.jpg",
-      "bookName": "The Pragmatic Programmer",
+      "bookName": "The PragmaticP",
       "authorName": "David Thomas",
       "price": 38.25,
       "rating": 4.6,
@@ -33,7 +34,8 @@ export const books = [
       "authorName": "Erich Gamma",
       "price": 30.50,
       "rating": 4.5,
-      "publicationDate": "1994"
+      "publicationDate": "1994",
+      "isFav": true
     },
     {
       "id": 5,
@@ -51,7 +53,8 @@ export const books = [
       "authorName": "Martin Fowler",
       "price": 37.75,
       "rating": 4.4,
-      "publicationDate": "1999"
+      "publicationDate": "1999",
+      "isFav": true
     },
     {
       "id": 7,
@@ -69,6 +72,7 @@ export const books = [
       "authorName": "Joshua Bloch",
       "price": 40.50,
       "rating": 4.6,
-      "publicationDate": "2008"
+      "publicationDate": "2008",
+      "isFav": true
     }
   ]
